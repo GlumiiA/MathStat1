@@ -1,7 +1,6 @@
 import math
 import pandas as pd
 
-# Загрузка данных
 file_path = 'sex_bmi_smokers.csv'
 df = pd.read_csv(file_path)
 data = df.iloc[:, 0].values
